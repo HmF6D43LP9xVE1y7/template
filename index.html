@@ -130,11 +130,32 @@
                 display: block;
                 height: 35px;
             }
+            a
+            {
+                color: black;
+            }
+            a:hover
+            {
+                color: white;
+            }
         </style>
     </head>
     <body oncontextmenu="return false">
         <div id="fixed">
             <div class="main">
+                <div class="title">
+                    template
+                </div>
+                <div class="spacing_350"></div>
+                <div class="text">
+                    <a href="#" onmouseenter="document.getElementById('fixed').style.backgroundImage = 'url(docs/orange.jpg)';" onmouseleave="document.getElementById('fixed').style.backgroundImage = 'url()';">
+                        fixed
+                    </a>
+                    <div class="spacing_175"></div>
+                    <a href="#" onmouseover="document.getElementById('fixed').style.backgroundImage = 'url(docs/red.jpg)';" onmouseleave="document.getElementById('fixed').style.backgroundImage = 'url()';">
+                        fixed
+                    </a>
+                </div>
             </div>
         </div>
         <div id="toggleable">
@@ -156,24 +177,16 @@
             </div>
             <div class="main">
                 <div class="title">
-                    fixed<br>
-                    fixed
-                    <div class="spacing_175"></div>
-                    fixed<br>
-                    fixed
-                    <div class="spacing_350"></div>
-                    fixed<br>
-                    fixed
+                    menu
                 </div>
+                <div class="spacing_350"></div>
                 <div class="text">
-                    fixed<br>
                     fixed
                     <div class="spacing_175"></div>
-                    fixed<br>
                     fixed
-                    <div class="spacing_350"></div>
-                    fixed<br>
+                    <div class="spacing_175"></div>
                     fixed
+                    <div class="spacing_175"></div>
                 </div>
             </div>
         </div>
